@@ -10,7 +10,7 @@
  *   ADDON_URL             — URL pública do addon (ex: https://meu-addon.com)
  */
 
-require('dotenv').config(); // carrega .env se existir
+//require('dotenv').config(); // carrega .env se existir
 
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const { getMovieCatalog, getMovieMeta } = require('./lib/catalog');
